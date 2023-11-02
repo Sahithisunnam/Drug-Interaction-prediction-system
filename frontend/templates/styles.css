@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.container {
+    margin-bottom: 20px;
+}
+
+input, button {
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 250px;
+}
+
+button {
+    background-color: #0074e4;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#drug-interaction {
+    background-color: #ffcc00; /* Yellow background color for drug interaction section */
+}

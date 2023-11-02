@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI-Driven Drug Interaction Prediction System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Login</h1>
+        <form id="login-form">
+            <input type="text" id="username" placeholder="Username">
+            <input type="password" id="password" placeholder="Password">
+            <button type="button" onclick="authenticate()">Login</button>
+        </form>
+    </div>
+
+    <div class="container">
+        <h1>Register</h1>
+        <form id="register-form">
+            <input type="text" id="newUsername" placeholder="Username">
+            <input type="password" id="newPassword" placeholder="Password">
+            <button type="button" onclick="register()">Register</button>
+        </form>
+    </div>
+
+    <div class="container" id="drug-interaction">
+        <h1>Al-Driven Drug Interaction Prediction System</h1>
+        <form id="upload-form">
+            <input type="file" id="dataset" accept=".csv">
+            <button type="button" onclick="uploadDataset()">Upload</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
